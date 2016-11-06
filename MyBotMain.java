@@ -16,7 +16,7 @@ public class MyBotMain {
         bot.connect("irc.cat.pdx.edu");
 
         // Join the #pircbot channel.
-        bot.joinChannel("#robots, catsonly");
+        bot.joinChannel("#robots, ");
         bot.onPing("Botty", "jamesw", "irc.cat.pdx.edu", "PING", "PONG");
     }
 
